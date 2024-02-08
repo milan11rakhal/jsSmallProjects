@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    position: relative;
+    width: 100%;
+}
+
+
+/* header */
+/* **************** */
+header {
+    position: relative !important;
+    width: 100%;
+    height: 100vh;
+    background: url(/images/Kwality/home_slider_002.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    padding: 0;
+    width: 100%;
+    position: fixed !important;
+    background: transparent;
+    top: 0;
+    left: 0;
+    /* background-color: #009ee2; */
+    transition: background .5s ease;
+}
+
+.navbar-bg{
+    /* background: rgba(2,4,21,.80) */
+   
+    background: #EFE2C2;
+}
+.show{
+    background: rgba(0, 0, 0, .4)
+}
+
+.navbar-nav .container-fluid{
+    position: relative;
+
+}
+
+.navbar-nav .container-fluid #navMenuButton span{
+    position: absolute;
+    top: 0;
+    color: white;
+    
+}
+.navbar-nav .container-fluid .show{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.navbar-nav li a {
+    /* color: #009ee2; */
+    /* color: #302781; */
+    color: #009540;
+    background-blend-mode: difference !important;
+}
+
+.navbar-nav li a:hover {
+    color: #009540;
+}
+#booknow{
+    white-space: nowrap;
+}
+@media only screen and (max-width: 992px) {
+    .navbar-nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .navbar-nav .container-fluid {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #booknow {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+}
+
+@media only screen and (min-width: 992px) {
+    #logoB {
+        max-width: 0px;
+    }
+}
+
+#logo {
+    padding: 0;
+}
+
+
+
+#logo img {
+    width: 100px;
+    height: 70px;
+    margin: 0 20px;
+}
+
+#navMenuButton {
+   border: 1px solid  #009ee2;
+}
+#navMenuButton span{
+    color: #302781;
+}
+#navMenuButton:focus{
+    color: #009540;
+}
+
+
+/* main */
+/* ******* */
+main{
+    width: 100%;
+
+    margin: 0;
+ 
+}
+
+
+/* footer */
+/* ************* */
+
+
+footer {
+    margin: 0;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* overflow: hidden; */
+}
+footer .top-footer .row{
+    width: 100%;
+}
+footer .top-footer{
+    /* background-color: #009ee2; */
+    background-color:  #302781;
+    width: 100%;
+  text-align: center;
+
+}
+
+
+footer .top-footer h1{
+    text-transform: uppercase;
+
+}
+
+
+
+
+
+ footer .bottom-footer{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+   align-items: center;
+   background-color: rgb(2,4,21,.98);
+
+}
+footer .bottom-footer p{
+  height: 5vh;
+  padding-left: 5%;
+  color: #009ee2;
+
+}
