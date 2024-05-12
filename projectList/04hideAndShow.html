@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Activities</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        img {
+            width: 100%;
+            aspect-ratio: 11/9;
+            object-fit: fill;
+            object-position: center;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div id="huntingBlogsContent">
+            <div class="container py-5">
+                <div class="exploring-trips">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 mb-3">
+                            <div class="trips">
+                                <div class="for-img mb-3">
+                                    <img src="/images/Kwality/home_slider_002.jpg" alt="">
+                                    <div class="button-position">
+                                        <button id="id1">Trips</button>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <div class="date-and-person">
+                                        <span class="indate">April 07 2023</span> <span>By Emily
+                                            Johnson</span>
+                                    </div>
+                                    <div class="trips-title">
+                                        <p>Exploring the Serengeti: A Wildlife Adventure</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-3">
+                            <div class="trips">
+                                <div class="for-img mb-3">
+                                    <img src="/images/Kwality/home_slider_002.jpg" alt="">
+                                    <div class="button-position">
+                                        <button id="id2">Trips</button>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <div class="date-and-person">
+                                        <span class="indate">April 07 2023</span> <span>By Emily
+                                            Johnson</span>
+                                    </div>
+                                    <div class="trips-title">
+                                        <p>Exploring the Serengeti: A Wildlife Adventure</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-3">
+                            <div class="trips">
+                                <div class="for-img mb-3">
+                                    <img src="/images/Kwality/home_slider_002.jpg" alt="">
+                                    <div class="button-position">
+                                        <button id="id3">Trips</button>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <div class="date-and-person">
+                                        <span class="indate">April 07 2023</span> <span>By Emily
+                                            Johnson</span>
+                                    </div>
+                                    <div class="trips-title">
+                                        <p>Exploring the Serengeti: A Wildlife Adventure</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-3">
+                            <div class="trips">
+                                <div class="for-img mb-3">
+                                    <img src="/images/Kwality/home_slider_002.jpg" alt="">
+                                    <div class="button-position">
+                                        <button id="id4">Trips</button>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <div class="date-and-person">
+                                        <span class="indate">April 07 2023</span> <span>By Emily
+                                            Johnson</span>
+                                    </div>
+                                    <div class="trips-title">
+                                        <p>Exploring the Serengeti: A Wildlife Adventure</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="exploring-trips-details">
+                    <div class="target-id-here">
+                        <div id="id1Trips">
+                          1st content
+                          <button>back</button>
+                        </div>
+                        <div id="id2Trips">
+                            5th content
+                            <button>back</button>
+                        </div>
+                        <div id="id3Trips">
+                          t3rd
+                          <button>back</button>
+                        </div>
+                        <div id="id4Trips">
+                             4ths content
+                             <button>back</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script>
+        const buttons = document.querySelectorAll(".trips button")
+        const trips = document.querySelector(".exploring-trips")
+        const ids = document.querySelectorAll(".target-id-here [id]")
+
+        function displayNone() {
+            ids.forEach(Element => {
+                Element.style.display = "none"
+            })
+        }
+        displayNone();
+        buttons.forEach(clicked => {
+            clicked.addEventListener("click", ev => {
+                trips.style.display = "none";
+               const displayIdName = ev.currentTarget.id+"Trips";
+               const displayId = document.getElementById(displayIdName)
+               displayId.style.display = "block";
+            })
+        })
+        const backbtn = document.querySelectorAll(".target-id-here button");
+        backbtn.forEach( ed => {
+            ed.addEventListener("click", hello =>{
+                console.log(hello.currentTarget.parentElement.parentElement)
+                displayNone();
+                trips.style.display = "block";
+            })
+        })
+    </script>
+</body>
+
+</html>

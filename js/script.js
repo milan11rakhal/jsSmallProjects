@@ -11,10 +11,10 @@
         });
     
 
-        // let navMenuClick = document.querySelector("#navMenuButton");
-        // navMenuClick.addEventListener('click',function(){
-        //     $("nav").toggleClass("navbar-bg");
-        // })
+        let navMenuClick = document.querySelector("#navMenuButton");
+        navMenuClick.addEventListener('click',function(){
+            $("nav").toggleClass("navbar-bgg");
+        })
 
 
 

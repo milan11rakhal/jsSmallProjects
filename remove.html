@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="first_header" inherit_id="website.layout" name="Header Template - Option" active="false">
+       <xpath expr="//header//nav" position="replace">   
+              <nav class="navbar navbar-expand-md position-fixed">
+                
+              </nav>
+       </xpath>
+     </template>
+     <template id="template_header_opt" inherit_id="website.snippet_options" name="Header Template - Option">
+        <xpath expr="//we-select[@data-variable='header-template']" position="inside">
+           <we-button title="airproof"
+              data-customize-website-views="theme_milan.first_header"
+              data-customize-website-variable="'first header'"  data-img="/theme_milan/static/src/images/mcLogo.png"/>
+        </xpath>
+     </template>
+</odoo>

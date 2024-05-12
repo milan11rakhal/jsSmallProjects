@@ -1,0 +1,11 @@
+{
+  "name": "jssmallprojects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile":  "sass --watch --no-source-map main.scss style.css"
+  },
+  "author": "",
+  "license": "ISC"
+}
